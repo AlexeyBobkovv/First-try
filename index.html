@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="16x16" href="Build/favicon-16x16.png">
+<title>News</title>
+<style type="text/css">
+      @import url("Build/CSS/Styles.css");
+      </style>
+</head>
+ <body>	
+        <a href="#" id="toTop"></a>
+	<div id="wrapper">	 
+         <header id="header">
+            <div class="wrapp">
+			    <div class="site-info">
+			        <div class="logo"></div>
+			        <div class="site-name"><a href="index.html"><img src="Build/Image/name.png" alt="kosmos_life"></a></div>
+                    <div class="user-manage">
+                      <form method="post" action="/users/login">
+                          <table class="user-table">
+                            <tbody>
+                                <tr>
+                                 <td><input class="input-field login-field" name="user_name" id="login-field" type="text" placeholder="Login"></td>
+                                 <td><input class="input-field pwd-field" name="user_pass" id="pwd" type="password" placeholder="Password"></td>
+                                 <td><button class="button-type" type="submit">Sing in</button></td>  
+                               </tr>
+                               <tr>
+                                <td><a class="user-link" href="/users/register">Registration</a></td>
+                                <td><a class="user-link" href="/users/forgot">Forgot Password?</a></td> 
+                              </tr>
+                          </tbody>          
+                        </table>
+                       </form>
+                    </div>
+                  <div class="social-links">
+                    <a class="soc-link vk" target="_blank" title="Kosmos on VK" href="#"></a>
+                    <a class="soc-link fb" target="_blank" title="Kosmos on Facebook" href="#"></a>
+                    <a class="soc-link telegram" target="_blank" title="News channel Kosmos в Telegram" href="#"></a>
+                    <a class="soc-link instagram" target="_blank" title="Kosmos on Instagram" href="#"></a>
+                  </div>
+			    </div> 
+           </div>       
+       </header>
+       
+       
+    <main class="main">
+        <div class="content-header">
+          <div class="searchmenu">
+            <form action="/search" method="GET" id="searchform">
+              <input id="s" type="text" name="q" size="20" placeholder="Search">
+            </form>
+        </div>
+      </div>
+      
+      <section class="main_content">
+            <div id="dle-content">
+              <div class="entry">
+               <div class="entry__title h2"><a href="#">Scientists have discovered a massive black hole</a></div>
+               <strong><hr class="entry__header-divider"></strong>
+               <div class="entry_content">
+		       <div class="entry__content-image"><img src="Build/Image/hole.jpg" alt="Black hole image" width="558" height="260"></div>
+		       <div class="entry__content-description">
+                 <p>Scientists have discovered a new Chernau hole, which is 70 times more massive than the Sun. Previously, scientists believed that the mass of a stellar black hole could not be 30 times the mass of the Sun. 
+			 So what is it? A new discovery forcing scientists to rethink their models of black hole formation, or an unknown error in the study? </p><!--Описание статьи-->
+		       </div>
+             </div>
+            </div>
+           
+           <div class="entry">
+               <div class="entry__title h2"><a href="#">NASA has created an ice map of ice on Mars</a></div>
+               <strong><hr class="entry__header-divider"></strong>
+               <div class="entry_content">
+		         <div class="entry__content-image"><img src="Build/Image\mars.jpg" alt="Марс"></div>
+		       <div class="entry__content-description">
+                 <p>NASA has big plans to return the astronauts to the moon in 2024, this will be a stepping stone to sending people to Mars. But where should the first people land on the Red Planet?
+A new article published in Geophysical Research Letters will help by providing a map of water ice, which is believed to be only 2.5 centimeters below the surface.</p>
+		       </div>
+             </div>
+            </div>
+            
+            <div class="entry">
+               <div class="entry__title h2"><a href="#">A huge new storm forms a hexagon at the South Pole of Jupiter</a></div>
+               <strong><hr class="entry__header-divider"></strong>
+               <div class="entry_content_3">
+		        <div class="entry__content-image"><img src="Build/Image/ear.jpg" alt="Планеты" width="561" height="210"></div>
+		       <div class="entry__content-description">
+                 <p>SAN FRANCISCO — NASA's Juno probe discovered a giant new storm swirling near Jupiter's south pole last month, a few weeks after pulling off a dramatic death-dodging maneuver.
+Juno spied the newfound maelstrom, which is about as wide as Texas, on Nov. 3, during its most recent close flyby of Jupiter. </p>
+		       </div>
+             </div>
+            </div>
+                    
+             <div class="list_number">
+              <span>1</span> 
+               <a href="#">2</a> 
+               <a href="#">3</a> 
+               <a href="#">4</a> 
+               <a href="#">5</a> 
+               <a href="#">6</a> 
+               <a href="#">7</a> 
+               <span class="nav_ext">...</span>
+              </div>
+              
+          </div>
+         </section>
+         
+         <aside class="main_left"><!--Левая панель-->
+             <div class="menu_block">
+				<div class="block_title">Menu</div>
+				  <ul class="link_menu">
+				   <li><a href="#">News</a></li>
+                   <li><a href="#">Photos</a></li>
+                   <li><a href="#">Forum</a></li>
+                   <li><a href="#">Archives</a></li>
+                   <li><a href="#">Video</a></li>
+                   <li><a href="#">Articles</a></li>
+                   <li><a href="#">Planets</a></li>
+                   <li><a href="#">NASA online</a></li>
+                   <li><a href="#">ISS online</a></li>
+                   <li><a href="#">Help</a></li> 
+				 </ul>
+              </div> 
+              <div class="cat_block">
+               <div class="block_title">Categories</div>
+				<ul class="link_menu">
+                 <li><a href="#">Planets</a></li>
+                 <li><a href="#">Encyclopedia</a></li>
+                 <li><a href="#">Meteorites</a></li>
+                 <li><a href="#">Comets</a></li>
+                 <li><a href="#">Nebulas</a></li>
+                 <li><a href="#">Black holes</a></li>
+                 <li><a href="#">Constellations</a></li>
+                 <li><a href="#">Stars</a></li>
+                 <li><a href="#">Galaxies</a></li>
+                 <li><a href="#">Exoplanets</a></li>
+                 <li><a href="#">UFO</a></li>
+                 <li><a href="#">Satellites</a></li>
+                 <li><a href="#">Rocets</a></li>
+                 <li><a href="#">Aliens</a></li>
+               </ul>
+             </div>
+              <div class="space_block">
+               <div class="block_title">Beauty of space</div>
+               <div class="space_pic">
+                <div class="fadein">
+                  <img src="https://www.centauri-dreams.org/wp-content/uploads/2008/05/omega_centauri_2.jpg">
+                  <img src="https://kosmos-x.net.ru/_nw/58/s44295554.jpg">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg">
+                  <img src="https://cdn.lifehacker.ru/wp-content/uploads/2015/05/15-066.png">
+                  <img src="https://v-kosmose.com/wp-content/uploads/2014/09/hs-2013-06-a-print.jpg">
+                  <img src="https://w-dog.ru/wallpapers/0/67/339415619918535/snimok-teleskopa-xabbl-zvezdy-tumannost-kosmos.jpg">
+                  <img src="https://pbs.twimg.com/media/EBLCePEWkAAu5E7.jpg:large">
+               </div>
+              </div>
+              </div>
+              <div class="my_block">
+               <div class="block_title">Portfolio</div>
+               <div class="portfolio" align="center">
+                 <a href="https://alexeybobkovv.github.io/Portfolio/">Portfolio_Link</a>
+                </div>
+              </div>
+         </aside>
+   </main>
+   
+    <footer id="foor"><!--Футер-->			
+		 <div class="footer-wrapp"> 
+            <div class="foo_left"><p></p></div>   
+			<div class="foot_main"><h3 class="fmain_word" align="center">Own site for any-all © 2019-2020</h3></div>		
+         </div>
+   </footer>
+   
+  </div>
+ </body>
+</html>
